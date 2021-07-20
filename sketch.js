@@ -11,7 +11,7 @@ function preload() {
     mouseImg1=loadAnimation("images/mouse1.png");
     mouseImg2= loadAnimation("images/mouse2.png","images/mouse3.png");
     mouseImg3=loadAnimation("images/mouse4.png");
-
+}
 function setup(){
     createCanvas(1000,800);
     //create tom and jerry sprites here
@@ -48,7 +48,7 @@ function draw() {
     drawSprites();
 }
     
-}
+
 
 
 function keyPressed(){
